@@ -20,9 +20,5 @@ Dibangun menggunakan
 
 
 Need to change
-	Untuk menjalankan program
 	- Ke direktori "application/config/", buka file config.php. Ubah base_url jadi direktori tempat folder ditaruh
 	- Ke direktori "application/config/", buka file database.php. Ubah password dan database sesuai settingan phpmyadmin
-
-	URL yang perlu diubah ke direktori tempat folder elearning ditaruh
-	- 
