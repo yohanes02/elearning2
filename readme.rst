@@ -1,5 +1,5 @@
 ###################
-Web Application Asynchronous E-learning STMIK IBBI
+Web Application Asynchronous E-learning
 ###################
 
 
