@@ -498,7 +498,7 @@ ALTER TABLE `uploaded_images`
 -- AUTO_INCREMENT for table `tblabsensi`
 --
 ALTER TABLE `tblabsensi`
-  MODIFY `idabsensi` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT;
+  MODIFY `idabsensi` int(11) NOT NULL AUTO_INCREMENT;
 --
 -- AUTO_INCREMENT for table `tbladmin`
 --
@@ -513,7 +513,7 @@ ALTER TABLE `tbldiskusi`
 -- AUTO_INCREMENT for table `tblgambar`
 --
 ALTER TABLE `tblgambar`
-  MODIFY `idgambar` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT;
+  MODIFY `idgambar` int(11) NOT NULL AUTO_INCREMENT;
 --
 -- AUTO_INCREMENT for table `tbljawaban`
 --
@@ -528,7 +528,7 @@ ALTER TABLE `tblmatakuliah_sec`
 -- AUTO_INCREMENT for table `tblmateri`
 --
 ALTER TABLE `tblmateri`
-  MODIFY `idmateri` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT;
+  MODIFY `idmateri` int(11) NOT NULL AUTO_INCREMENT;
 --
 -- AUTO_INCREMENT for table `tblpengumuman`
 --
