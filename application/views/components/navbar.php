@@ -46,15 +46,15 @@
 				<li><a title="" href="logout"><i class="icon icon-share-alt"></i> <span class="text">Logout</span></a>
 			<?php }else if ($this->session->userdata("islogin")=='masukmhs') { ?>
 				<?php
-					$prdnav = $this->session->userdata("ses_prodi");
-					$semnav = $this->session->userdata("ses_semester");
-					$mknav = $this->db->query("select * from tblmatakuliah where prodi='$prdnav' and semester='$semnav'");
-					foreach($mknav->result() as $rwonav)
-					{
-						$matkulnav = $rwonav->namamk;
-						$kdmknav = $rwonav->kodemk;
-					}	
-					$this->session->set_userdata('ses_kodemk', $kdmknav);
+					// $prdnav = $this->session->userdata("ses_prodi");
+					// $semnav = $this->session->userdata("ses_semester");
+					// $mknav = $this->db->query("select * from tblmatakuliah where prodi='$prdnav' and semester='$semnav'");
+					// foreach($mknav->result() as $rwonav)
+					// {
+					// 	$matkulnav = $rwonav->namamk;
+					// 	$kdmknav = $rwonav->kodemk;
+					// }	
+					// $this->session->set_userdata('ses_kodemk', $kdmknav);
 				?>
 				
 				<!-- <input type="hidden" name="kdmknav" id="kdmknav" value="<?= $kdmknav ?>"> -->
